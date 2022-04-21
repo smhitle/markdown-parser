@@ -15,7 +15,6 @@ public class MarkdownParse {
         String curSubstring;
         
         while(currentIndex < markdown.length()) {
-
             for (int i = 0; i < fileSubstrings.length; i++) {
                 curSubstring = fileSubstrings[i];
                 if (curSubstring.contains("[") && curSubstring.contains("]") && curSubstring.contains("(") && curSubstring.contains(")")) {
