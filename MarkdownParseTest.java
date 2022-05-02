@@ -8,12 +8,6 @@ import java.nio.file.Files;
 
 public class MarkdownParseTest {
 
-    @Before 
-    public void setUp(){
-        //Path fileName = Path.of("test-file.md");
-    }
-
-
     @Test
     public void addition() {
         assertEquals(2, 1+1);
