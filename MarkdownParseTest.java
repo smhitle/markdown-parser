@@ -1,7 +1,6 @@
 import static org.junit.Assert.*;
 import java.io.IOException;
 import java.nio.file.Files;
-import java.nio.file.;
 import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.List;
@@ -17,7 +16,7 @@ public class MarkdownParseTest {
 
     @Test
     public void testGetLinks() throws IOException{
-        Path fileName = Path.of("test-file.md");
+        Path fileName = Path.of("C:/Users/Tyler/Documents/GitHub/markdown-parser/test-file.md");
         String content = Files.readString(fileName);
         List<String> links = MarkdownParse.getLinks(content);
         List<String> list = List.of("https://something.com","some-thing.html");
