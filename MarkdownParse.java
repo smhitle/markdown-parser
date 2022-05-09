@@ -7,7 +7,6 @@ public class MarkdownParse {
 
     public static ArrayList<String> getLinks(String markdown) {
         ArrayList<String> toReturn = new ArrayList<>();
-        // find the next [, then find the ], then find the (, then read link upto next )
         int currentIndex = 0;
         String[] fileSubstrings = markdown.split("\n");
         String curSubstring;
