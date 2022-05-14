@@ -4,9 +4,7 @@ import java.nio.file.Path;
 import java.util.ArrayList;
 
 public class MarkdownParse {
-
     public static ArrayList<String> getLinks(String markdown) {
-        // deleted line (after adding line)
         ArrayList<String> toReturn = new ArrayList<>();
         int currentIndex = 0;
         String[] fileSubstrings = markdown.split("\n");
