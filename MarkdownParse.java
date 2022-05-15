@@ -4,16 +4,14 @@ import java.nio.file.Path;
 import java.util.ArrayList;
 
 public class MarkdownParse {
-
-    // new line
+    
     public static ArrayList<String> getLinks(String markdown) {
 	// added new line
         ArrayList<String> toReturn = new ArrayList<>();
         int currentIndex = 0;
         String[] fileSubstrings = markdown.split("\n");
         String curSubstring;
-        
-        System.out.println("hello");
+
         while(currentIndex < markdown.length()) {
             for (int i = 0; i < fileSubstrings.length; i++) {
                 curSubstring = fileSubstrings[i];
