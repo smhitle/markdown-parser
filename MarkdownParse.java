@@ -4,7 +4,7 @@ import java.nio.file.Path;
 import java.util.ArrayList;
 
 public class MarkdownParse {
-    
+
     public static ArrayList<String> getLinks(String markdown) {
 	// added new line
         ArrayList<String> toReturn = new ArrayList<>();
